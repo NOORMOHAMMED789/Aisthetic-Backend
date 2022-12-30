@@ -6,11 +6,9 @@ const Menupage = require("../modal/user");
 //! This is for the read the data -- (CREATE -- POST Method)
 router.post("/", async (req, res) => {
   try {
-    req.body.email = req.loggedIn_email;
     const orders = await Menupage.create(req.body);
     res.json({
       status: "Success",
-      orders,
     });
   } catch (e) {
     res.status(400).json({
