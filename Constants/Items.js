@@ -14,19 +14,19 @@ const products = [
   {
     id: 4,
 
-    item: "Lime Tea",
+    item: "Idle",
   },
   {
     id: 5,
-    item: "Korean Tea",
+    item: "Dosa",
   },
   {
     id: 6,
-    item: "Japanese Tea",
+    item: "Vada",
   },
   {
     id: 7,
-    item: "Ginger Tea",
+    item: "Soup",
   },
 ];
 
