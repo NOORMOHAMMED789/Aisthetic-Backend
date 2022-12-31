@@ -1,0 +1,28 @@
+{
+  "name": "aisthetic-backend",
+  "version": "1.0.0",
+  "description": "Aisthetic backend menu project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOORMOHAMMED789/Aisthetic-Backend.git"
+  },
+  "author": "Noor Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NOORMOHAMMED789/Aisthetic-Backend/issues"
+  },
+  "homepage": "https://github.com/NOORMOHAMMED789/Aisthetic-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
+}
