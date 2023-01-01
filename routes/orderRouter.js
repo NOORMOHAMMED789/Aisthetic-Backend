@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const dotenv = require("dotenv").config();
-const Order = require("../modal/order");
+const Menupage = require("../modal/user");
 
 router.get("/", async (req, res) => {
   try {
-    const orders = await Order.find();
+    const orders = await Menupage.find();
     res.json({
       status: "Success",
       orders,
